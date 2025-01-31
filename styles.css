@@ -168,6 +168,32 @@ body {
 .main-stadard {
   background-image: url(./assets/bg.png);
 }
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+.btn1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: orange;
+  color: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+.btn2 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: orange;
+  color: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
 /* media query */
 
 @media screen and (max-width: 576px) {
@@ -198,5 +224,8 @@ body {
   .stan-header {
     font-size: 1.625rem;
     font-weight: bold;
+  }
+  .btn {
+    display: none;
   }
 }
