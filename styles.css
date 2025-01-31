@@ -395,8 +395,9 @@ footer {
 }
 
 .ending {
-  display: grid;
-  grid-template-columns: repeat(3, 2fr);
+  display: flex;
+  justify-content: center;
+  text-align: center;
   padding: 123px 229px 174px 140px;
   justify-content: space-between;
 }
@@ -465,5 +466,10 @@ footer {
   .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ending {
+    display: flex;
+    flex-direction: column;
   }
 }
