@@ -378,6 +378,40 @@
   font-size: 20px;
   font-weight: 700;
 }
+
+footer {
+  background: rgb(1, 172, 253);
+  color: white;
+}
+
+.end-logo {
+  display: flex;
+}
+.font-42 {
+  width: 206.11px;
+  height: 80px;
+  font-size: 42.14px;
+  font-weight: 700;
+}
+
+.ending {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  padding: 123px 229px 174px 140px;
+  justify-content: space-between;
+}
+
+.end-list {
+  list-style: none;
+  width: 57.87px;
+  height: 25px;
+}
+
+.second {
+  width: 156.36px;
+  height: 30px;
+}
+
 /* media query */
 
 @media screen and (max-width: 576px) {
