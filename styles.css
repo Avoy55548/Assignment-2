@@ -17,7 +17,16 @@
 }
 .font-15 {
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: bold;
+}
+
+.font-24 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.light-grey {
+  color: rgb(102, 102, 102);
 }
 
 .grey {
@@ -222,6 +231,135 @@ body {
   cursor: pointer;
 }
 
+.stories {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  height: 1018.02px;
+  background: url(./assets/bg.png),
+    linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+  text-align: center;
+}
+
+.story1-img {
+  width: 540.27px;
+  height: 337px;
+  border-radius: 16px;
+}
+.story1-text {
+  width: 540.27px;
+  height: 650.52px;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 5fr);
+}
+
+.story1-btn {
+  width: 174.51px;
+  height: 47.93px;
+  border-radius: 47.93px;
+  background: rgb(60, 216, 232);
+  border: none;
+}
+
+.story1-head {
+  width: 402.49px;
+  height: 69.98px;
+  padding-left: 38px;
+  padding-bottom: 52px;
+  text-align: left;
+}
+
+.story1-writing {
+  padding: 0px 39px 34px 39px;
+  text-align: left;
+}
+
+.story2-img {
+  width: 291px;
+  height: 177px;
+}
+.story2-btn {
+  width: 174.51px;
+  height: 38.35px;
+  border-radius: 47.93px;
+  background: rgb(149, 178, 38);
+  border: none;
+  color: white;
+}
+
+.story2-head {
+  width: 290.69px;
+  height: 301.61px;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+.story3-img {
+  width: 291px;
+  height: 177px;
+}
+.story3-btn {
+  width: 174.51px;
+  height: 38.35px;
+  border-radius: 47.93px;
+  background: rgb(93, 88, 240);
+  border: none;
+  color: white;
+}
+
+.story3-head {
+  width: 290.69px;
+  height: 301.61px;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+
+.story4-img {
+  width: 291px;
+  height: 177px;
+}
+.story4-btn {
+  width: 174.51px;
+  height: 38.35px;
+  border-radius: 47.93px;
+  background: rgb(149, 178, 38);
+  border: none;
+  color: white;
+}
+
+.story4-head {
+  width: 290.69px;
+  height: 301.61px;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+
+.story5-img {
+  width: 291px;
+  height: 182px;
+  margin-left: 10px;
+}
+
+.story5-btn {
+  width: 174.51px;
+  height: 38.35px;
+  border-radius: 47.93px;
+  background: rgb(149, 178, 38);
+  border: none;
+  color: white;
+}
+
+.story5-head {
+  width: 290.69px;
+  height: 301.61px;
+  margin-left: 10px;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
 /* media query */
 
 @media screen and (max-width: 576px) {
