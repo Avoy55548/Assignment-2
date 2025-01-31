@@ -33,7 +33,7 @@
   color: rgba(128, 128, 128, 1);
 }
 
-body {
+.width {
   max-width: 1440px;
   margin: 0 auto;
 }
