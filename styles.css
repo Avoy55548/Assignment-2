@@ -235,7 +235,6 @@
   display: flex;
   justify-content: center;
   gap: 20px;
-  height: 1018.02px;
   background: url(./assets/bg.png),
     linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
   text-align: center;
@@ -248,14 +247,14 @@
 }
 .story1-text {
   width: 540.27px;
-  height: 650.52px;
+  height: 350.52px;
   border-radius: 16px;
   background: rgb(255, 255, 255);
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, 5fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .story1-btn {
@@ -294,9 +293,11 @@
 
 .story2-head {
   width: 290.69px;
-  height: 301.61px;
+  height: 150.61px;
   border-radius: 16px;
   background: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: bold;
 }
 .story3-img {
   width: 291px;
@@ -313,9 +314,11 @@
 
 .story3-head {
   width: 290.69px;
-  height: 301.61px;
+  height: 150px;
   border-radius: 16px;
   background: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .story4-img {
@@ -333,9 +336,11 @@
 
 .story4-head {
   width: 290.69px;
-  height: 301.61px;
+  height: 170px;
   border-radius: 16px;
   background: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .story5-img {
@@ -355,10 +360,23 @@
 
 .story5-head {
   width: 290.69px;
-  height: 301.61px;
+  height: 160px;
   margin-left: 10px;
   border-radius: 16px;
   background: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: bold;
+}
+.view {
+  justify-content: center;
+  align-items: center;
+  width: 197px;
+  height: 50px;
+  border-radius: 12px;
+  background: rgb(17, 17, 17);
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
 }
 /* media query */
 
@@ -401,5 +419,17 @@
   }
   .btn {
     display: none;
+  }
+  .story1-btn,
+  .story1-head,
+  .story1-img,
+  .story1-text,
+  .story1-writing {
+    display: none;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
